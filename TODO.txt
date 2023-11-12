@@ -1,0 +1,6 @@
+1. Complete diagram that shows the execution process
+2. Implement a function to get the file name and return a file object
+3. Create an encrypt function
+4. Implement salting
+5. Implement decrypting
+6. Test
