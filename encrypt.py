@@ -1,6 +1,7 @@
 from cryptography.fernet import Fernet
 import hashlib
 
+
 def get_file(filename):
   # This function gets the file name of what will be encrypted/decrypted
   pass
@@ -25,6 +26,12 @@ def decrypt():
 
 
 def main():
+  while True:
+    # Gets input until encrypt or decrypt is input
+    option = input("What would you like to do; encrypt or decrypt a file?\nEnter \"Encrypt\" or \"Decrypt\"\n")
+    if(option.lower() == "encrypt" or option.lower() == "decrypt"):
+      break
+
   key = get_password()
   print(key)
     
