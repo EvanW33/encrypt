@@ -32,6 +32,13 @@ def main():
     if(option.lower() == "encrypt" or option.lower() == "decrypt"):
       break
 
+  # Determines what to do next
+  if(option.lower() == "encrypt"):
+    encrypt()
+  elif(option.lower() == "decrypt"):
+    decrypt()
+  else:
+    raise Exception("Unauthorized text")
   key = get_password()
   print(key)
     
