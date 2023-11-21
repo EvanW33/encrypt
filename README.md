@@ -1,2 +1,2 @@
 # encrypt
-A program to encrypt and decrypt files using AES-256.
+A program to encrypt and decrypt files.
